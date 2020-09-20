@@ -1,8 +1,8 @@
-import React from "react";
-import SearchBar from "../SearchBar/index";
+import React from 'react';
+import SearchBar from '../SearchBar/index';
 
-import logo from "../../assets/evox-logo.svg";
-import "./style.scss";
+import logo from '../../assets/evox-logo.svg';
+import './style.scss';
 
 function Header({ handleSearch }) {
   return (

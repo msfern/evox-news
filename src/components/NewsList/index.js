@@ -1,14 +1,14 @@
-import React from "react";
-import NewsCard from "../NewsCard/index";
-import "./style.scss";
+import React from 'react';
+import NewsCard from '../NewsCard/index';
+import './style.scss';
 
-function NewsList({newsList}) {
+function NewsList({ newsList }) {
   return (
     <main className="news-container">
       <ul>
-        {newsList.map((news, index) => (
+        {newsList.map((news) => (
           <NewsCard
-            key={index}
+            key={news.title}
             source={news.source.name}
             author={news.author}
             title={news.title}

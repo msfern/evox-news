@@ -1,37 +1,40 @@
-import React from "react";
+import React from 'react';
 import { formatDate } from '../../utils/utils';
-import "./style.scss";
+import './style.scss';
 
-function NewsCard(props) {
-
+function NewsCard({
+  url,
+  urlToImage,
+  title,
+  source,
+  description,
+  author,
+  publishedAt,
+}) {
   return (
     <li className="news-card">
-      <a href={props.url} target="_blank" rel="noopener noreferrer">
-      {props.urlToImage ?
-        <img src={props.urlToImage} alt={props.title} />
-        :
-        <div className="image-placeholder"></div>
-      }
-        <div className='news-card-content'>
+      <a href={url} target="_blank" rel="noopener noreferrer">
+        {urlToImage ? (
+          <img src={urlToImage} alt={title} />
+        ) : (
+          <div className="image-placeholder" />
+        )}
+        <div className="news-card-content">
           <header className="news-card-header">
-            <span className='header-tag'>{props.source}</span>
-            <h2 className='header-title'>{props.title}</h2>
+            <span className="header-tag">{source}</span>
+            <h2 className="header-title">{title}</h2>
           </header>
-          {props.description &&
-            <p className="news-card-desc">{props.description}</p>
-          }
+          {description && <p className="news-card-desc">{description}</p>}
           <footer className="news-card-footer">
-          {props.author &&
-            <p className="footer-author">{props.author}</p>
-          }
-            {props.publishedAt &&
-              <p className="footer-date">{formatDate(props.publishedAt)}</p>
-            }
+            {author && <p className="footer-author">{author}</p>}
+            {publishedAt && (
+              <p className="footer-date">{formatDate(publishedAt)}</p>
+            )}
           </footer>
         </div>
       </a>
     </li>
-  )
+  );
 }
 
 export default NewsCard;
