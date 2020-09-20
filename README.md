@@ -1,68 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">
+	Front End Challenge
+</h2>
 
-## Available Scripts
+![Application Preview](/print.png)
 
-In the project directory, you can run:
+## 📙 Overview
 
-### `yarn start`
+As per the [challenge description](https://www.notion.so/Desafio-Front-end-Evox-Group-c05361b804914ce4a5d9a3194d18b61b), the goal of this project was to create a News portal, following the requirements and adding improvements if necessary, besides developing the UI/UX for it ourselves. Some of the functionalities added to this application were:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Live Search.**
+- **Pagination.**
+- **Responsive interface.** It's completely mobile friendly, so it works smoothly on every desktop, smartphone and tablet. Followed Mobile First principles.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 🔨 Process
 
-### `yarn test`
+First of all, a sketch was created, alongside the list of needs and improvements the application could have.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+After creating the project, I added a few Style Guide tools to keep the code consistent, such as ESLint, Prettier and EditorConfig.
 
-### `yarn build`
+For the Front End, I added the necessary components and pages and filled them with hard coded information. The entire HTML and CSS (Sass in this case) code in created during this stage, while also paying attention to the UX.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For the logic, I used the Fetch API to pull the information needed for the project. After this step, I coded the Live Search functionality, matching the search value with the news' title.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+As for the pagination, I coded it from scratch since it wouldn't be very complicated to do so.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As for the tests, I don't have any hands on experience with it, so I left it without testing. But this is definitely a skill I'm interested in aquiring.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🎨 Palette
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Color                            | Hex                             |
+| -------------                    |:-------------:                  |
+| ![#4C8577](https://placehold.it/15/4C8577/000000?text=+) | #4C8577 |
+| ![#D183C9](https://placehold.it/15/D183C9/000000?text=+) | #D183C9 |
+| ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) | #ffffff |
+| ![#e8eaee](https://placehold.it/15/e8eaee/000000?text=+) | #e8eaee |
+| ![#b5b5b5](https://placehold.it/15/b5b5b5/000000?text=+) | #b5b5b5 |
+| ![#696969](https://placehold.it/15/696969/000000?text=+) | #696969 |
+| ![#313237](https://placehold.it/15/313237/000000?text=+) | #313237 |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 💾 Getting Started
+To build and run this application locally, you'll need latest versions of Git and Node.
 
-## Learn More
+```
+# Clone this repository
+$ https://github.com/msfern/evox-news
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Go into the repository
+$ cd evox-news
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install the dependencies
+$ npm install
+$ or
+$ yarn
 
-### Code Splitting
+# Start the application
+$ npm start
+$ or
+$ yarn start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
