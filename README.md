@@ -18,13 +18,13 @@ First of all, a sketch was created, alongside the list of needs and improvements
 
 After creating the project, I added a few Style Guide tools to keep the code consistent, such as ESLint, Prettier and EditorConfig.
 
-For the Front End, I added the necessary components and pages and filled them with hard coded information. The entire HTML and CSS (Sass in this case) code in created during this stage, while also paying attention to the UX.
+For the Front End, I added the necessary components and pages and filled them with static information. The entire HTML and CSS (Sass in this case) code in created during this stage, while also paying attention to the UX.
 
 For the logic, I used the Fetch API to pull the information needed for the project. After this step, I coded the Live Search functionality, matching the search value with the news' title.
 
 As for the pagination, I coded it from scratch since it wouldn't be very complicated to do so.
 
-As for the tests, I don't have any hands on experience with it, so I left it without testing. But this is definitely a skill I'm interested in aquiring.
+Finally, for the tests, I don't have any hands on experience with it, so I left it without testing. But this is definitely a skill I'm interested in aquiring.
 
 
 ## 🎨 Palette
@@ -33,7 +33,7 @@ As for the tests, I don't have any hands on experience with it, so I left it wit
 | -------------                    |:-------------:                  |
 | ![#4C8577](https://placehold.it/15/4C8577/000000?text=+) | #4C8577 |
 | ![#D183C9](https://placehold.it/15/D183C9/000000?text=+) | #D183C9 |
-| ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) | #ffffff |
+| ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) | #FFFFFF |
 | ![#e8eaee](https://placehold.it/15/e8eaee/000000?text=+) | #e8eaee |
 | ![#b5b5b5](https://placehold.it/15/b5b5b5/000000?text=+) | #b5b5b5 |
 | ![#696969](https://placehold.it/15/696969/000000?text=+) | #696969 |
