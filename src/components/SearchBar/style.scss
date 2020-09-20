@@ -1,0 +1,24 @@
+.searchbar {
+  max-width: 750px;
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+
+  input {
+    background: var(--searchBg);
+    outline: 0;
+    border-radius: 6px;
+    padding: 10px 14px 10px 35px;
+    width: 100%;
+    transition: width 0.2s ease-out;
+    font-size: 16px;
+  }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    fill: var(--icon);
+  }
+}

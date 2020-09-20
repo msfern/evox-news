@@ -1,0 +1,27 @@
+.header {
+  background: var(--headerBg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 55px;
+    height: auto;
+  }
+
+  h1 {
+    color: var(--headerText);
+    font-weight: 500;
+    margin-left: 10px;
+  }
+
+  span {
+    color: inherit;
+    font-weight: 700;
+  }
+}

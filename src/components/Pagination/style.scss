@@ -1,0 +1,40 @@
+.pagination {
+  padding: 30px;
+}
+
+.page-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.page-item button {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--red);
+  font-weight: 600;
+  border: 1px solid var(--pagination);
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: translateY(0);
+  transition: transform .2s linear;
+}
+
+.page-item button:hover {
+  transform: translateY(-3px);
+}
+
+.page-item button:focus {
+  outline: none;
+}
+
+.page-item button.active {
+  color: white;
+  background-color: var(--pagination);
+}
+
+.page-item:not(:first-child) {
+  margin-left: 10px;
+}
