@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 /* eslint-disable import/prefer-default-export */
 export function formatDate(date) {
   const dateInstance = new Date(date);
